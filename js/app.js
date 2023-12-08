@@ -7,6 +7,7 @@ function calcular(){
     let peso = Number(TN1.value)
     let altura = Number(TN2.value)
     let resultado = peso/Math.pow(altura,2)
+    console.log(resultado)
 
     document.querySelector('#res').style.display='flex'
 
